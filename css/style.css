@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap");
+
+body {
+  background: linear-gradient(to right, lightgreen, blue);
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.content {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  border-top: 1px solid #fff2e7;
+}
+.cabecalho-img {
+  height: 75px;
+}
+.cabecalho-menu {
+  display: flex;
+  gap: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.cabecalho-anchor {
+  color: white;
+}
+
+.cabecalho-anchor:hover {
+  color: lightgreen;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-main-described {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.content-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.content-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.content-img {
+  height: 300px;
+}
