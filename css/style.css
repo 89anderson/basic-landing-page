@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap");
 
 body {
-  background: linear-gradient(to right, lightgreen, blue);
+  background: linear-gradient(to right, yellow, blue);
+  //background: blue;
 }
 .cabecalho {
   display: flex;
@@ -11,11 +12,6 @@ body {
   padding: 30px;
 }
 
-.content {
-  padding-top: 48px;
-  margin-bottom: 48px;
-  border-top: 1px solid #fff2e7;
-}
 .cabecalho-img {
   height: 75px;
 }
@@ -31,7 +27,13 @@ body {
 }
 
 .cabecalho-anchor:hover {
-  color: lightgreen;
+  color: yellow;
+}
+
+.content {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  border-top: 1px solid #fff2e7;
 }
 
 .content-main {
@@ -39,6 +41,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  padding-bottom: 48px;
 }
 
 .content-main-described {
@@ -56,8 +59,41 @@ body {
 .content-subtitle {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
+  color: rgb(22, 32, 25);
 }
 
 .content-img {
-  height: 300px;
+  height: 250px;
+}
+
+.content-secundary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+  border-top: 1px solid #fff2e7;
+  gap: 35px;
+}
+
+.content-secundary-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.content-secundary-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: color: rgb(22, 32, 25);
+}
+
+.rodape {
+  border-top: 1px solid #fff2e7;
+  padding-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape-img {
+  height: 75px;
 }

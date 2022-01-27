@@ -1,2 +1,2 @@
-# basic-landing-page
-A basic landing page for future projects
+# Template for landing pages
+This is a template under construction to create your landing page with HTML and CSS!
